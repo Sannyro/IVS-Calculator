@@ -1,0 +1,38 @@
+Systém pro správu verzí: Github
+Repozitář je public, pro náhled slouží odkaz níže
+https://github.com/Sannyro/IVS-Calculator
+
+Komunikační kanály: Discord
+
+Rozdělení úkolů:
+xkadanm00
+	- Matematická knihovna
+	- Makefile
+	- Instalátory
+xhanzlj00
+	- GUI
+	- Doxyfile
+xklodom00
+	- Profiling
+	- Dokumentace
+
+Termíny:
+do 20.3.
+	Vytvoření repozitáře
+	Kostra repozitáře
+	Makefile
+	Doxyfile
+do 31.3.
+	TDD Testy
+	Základní matematické operace v matematické knihovně
+do 13.4.
+	Dokončení matematické knihovny
+	GUI kalkulačky
+do 24.4.
+	Profiling
+	GUI mockups
+do 30.4.
+	Instalátory
+	Dokumentace
+do 31.4.
+	Poslední úpravy a odevzdání
