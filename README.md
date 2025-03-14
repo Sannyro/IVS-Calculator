@@ -1,3 +1,13 @@
+Pushing code
+------
+1. Create a branch
+``` 
+git branch <branch-name>
+git checkout <branch-name>
+``` 
+2. Commit your changes
+3. Create a pull request to merge into main
+
 Formatting
 ------
 Code formatting is done using clang-format and a git hook, that automatically runs clang-format on every commit creation.  
