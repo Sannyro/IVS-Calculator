@@ -1,12 +1,17 @@
 Pushing code
 ------
-1. Create a branch
+1. Create a branch and change into it
 ``` 
 git branch <branch-name>
 git checkout <branch-name>
 ``` 
-2. Commit your changes
+2. Commit and push your changes
+```
+git commit -m "<your-message>"
+git push
+```
 3. Create a pull request to merge into main
+4. Wait for pull request approval and approve pull requests of others
 
 Formatting
 ------

@@ -1,0 +1,8 @@
+# Ignore all zip files
+*.zip
+
+# Ignore the build directory in src
+/src/build/
+
+# Ignore the specific directory
+/xkadanm00_xhanzlj00_xklodom00/
