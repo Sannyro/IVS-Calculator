@@ -16,7 +16,11 @@ git push
 Formatting
 ------
 Code formatting is done using clang-format and a git hook, that automatically runs clang-format on every commit creation.  
-Make sure to have at least clang-format version 19.1.7 installed on your system. 
+Make sure to have at least clang-format version 19.1.7 installed on your system.  
+After cloning the repository run the provided git command to change githooks directory. 
+```
+git config --local core.hooksPath .githooks/
+``` 
 
 Enviroment
 ------

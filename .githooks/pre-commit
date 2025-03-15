@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Formatting files"
+
+git diff --cached --name-only --diff-filter=ACM | grep '\.[ch]$' | while read -r file; do
+    clang-format -i "$file"
+    git add "$file"  
+
+done
